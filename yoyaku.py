@@ -109,7 +109,7 @@ class Sercher():
     
     def find_cell_from_array(self, arr, want_colum_name):
         idx = self.colum_name_list.index(want_colum_name)
-        return ar[idx]
+        return arr[idx]
 
     def find_cell_from_colum(self, keyword_colum_name, keyword, want_colum_name):
         idx = self.colum_name_list.index(want_colum_name)
